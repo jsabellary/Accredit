@@ -1,0 +1,88 @@
+﻿@model Accredit.Models.User
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<div>
+    <h4>User</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Location)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Location)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.avatar_url)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.avatar_url)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.avatar_url)
+        </dt>
+
+        <dd>
+            <img src=@Html.DisplayFor(model => model.avatar_url) />
+        </dd>
+    </dl>
+    <p>Repos</p>
+    <div class="form-horizontal">
+        <hr />
+        <div class="form-group">
+            <table style="width:400px">
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Description
+                    </th>
+                    <th>
+                        Stargazers
+                    </th>
+                    <th>
+                        Url
+                    </th>
+                </tr>
+                @foreach (var repo in Model.Repos)
+                {
+                    <tr>
+                        <td>
+                            <a href=@Html.DisplayFor(modelItem => repo.Url)>
+                                @Html.DisplayFor(modelItem => repo.Name)
+                            </a>
+
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => repo.Description)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => repo.stargazers_count)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => repo.Url)
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+</div>
+

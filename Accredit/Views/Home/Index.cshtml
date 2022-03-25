@@ -1,0 +1,14 @@
+﻿@model Accredit.Models.User
+@{
+    ViewBag.Title = "Home";
+}
+
+<br />
+
+@using (Html.BeginForm("SearchUser", "Home", FormMethod.Get))
+{
+    <input type="text" name="user" />
+    <input type="submit" name="user" value="Search" />
+}
+
+<p>@ViewBag.ErrorMessage</p>

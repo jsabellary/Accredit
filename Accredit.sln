@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accredit", "Accredit\Accredit.csproj", "{FAC47F26-C91A-468E-921D-C440AE75E412}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accredit.Tests", "Accredit.Tests\Accredit.Tests.csproj", "{525F9AFD-67AD-4808-B8F1-4505950F646C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C7E71B52-E010-4D73-9AAF-230E2D21DD8F}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAC47F26-C91A-468E-921D-C440AE75E412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC47F26-C91A-468E-921D-C440AE75E412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC47F26-C91A-468E-921D-C440AE75E412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC47F26-C91A-468E-921D-C440AE75E412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{525F9AFD-67AD-4808-B8F1-4505950F646C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{525F9AFD-67AD-4808-B8F1-4505950F646C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{525F9AFD-67AD-4808-B8F1-4505950F646C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{525F9AFD-67AD-4808-B8F1-4505950F646C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1016A9DD-3E7C-4941-9D0C-A44ADCA95C0B}
+	EndGlobalSection
+EndGlobal
