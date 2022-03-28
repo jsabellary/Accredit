@@ -4,7 +4,7 @@ using System;
 namespace Accredit.Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class UnitTest2
     {
         [TestMethod]
         public void TestMethod1()
